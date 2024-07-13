@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/front_hover.png</file>
+        <file>png/front_normal.png</file>
+        <file>png/front_pressed.png</file>
+        <file>png/music_icon.png</file>
+        <file>png/next_hover.png</file>
+        <file>png/next_normal.png</file>
+        <file>png/next_pressed.png</file>
+        <file>png/phone_icon.png</file>
+        <file>png/play_hover.png</file>
+        <file>png/play_normal.png</file>
+        <file>png/play_pressed.png</file>
+        <file>png/sign.png</file>
+        <file>png/stop_hover.png</file>
+        <file>png/stop_normal.png</file>
+        <file>png/stop_pressed.png</file>
+        <file>png/choose_douyin.png</file>
+        <file>png/choose_map.png</file>
+        <file>png/choose_music.png</file>
+        <file>png/choose_weather.png</file>
+        <file>png/11douy.png</file>
+        <file>png/11map.png</file>
+        <file>png/11weather.png</file>
+        <file>png/choose_music1.png</file>
+        <file>png/app_icon.png</file>
+        <file>png/cover.png</file>
+        <file>png/coll_hover.png</file>
+        <file>png/coll_normal1.png</file>
+        <file>png/colled.png</file>
+        <file>png/title.png</file>
+        <file>png/regi_icon.png</file>
+        <file>png/regi_icon2.png</file>
+        <file>png/search_hover.png</file>
+        <file>png/search_normal.png</file>
+        <file>png/search_press.png</file>
+        <file>png/wea_icon.png</file>
+        <file>png/weather_sindow.png</file>
+        <file>city.txt</file>
+        <file>png/dayu.png</file>
+        <file>png/duoyun.png</file>
+        <file>png/qing.png</file>
+        <file>png/xiaoyu.png</file>
+        <file>png/yintian.png</file>
+        <file>png/zhongyu.png</file>
+    </qresource>
+</RCC>
