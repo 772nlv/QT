@@ -1,0 +1,15 @@
+INPUT(
+./release\funcchoosewindow.o
+./release\main.o
+./release\mainwindow.o
+./release\mymusicwindow.o
+./release\regiwindow.o
+./release\sqliteoperator.o
+./release\weatherwindow.o
+./release\qrc_rc.o
+./release\moc_funcchoosewindow.o
+./release\moc_mainwindow.o
+./release\moc_mymusicwindow.o
+./release\moc_regiwindow.o
+./release\moc_weatherwindow.o
+);

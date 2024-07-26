@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FuncChooseWindow</class>
+ <widget class="QMainWindow" name="FuncChooseWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>499</width>
+    <height>541</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+	background:rgba(255,255,255,100%);
+	border-radius:30px;
+	background-color: rgb(140, 140, 140);
+}
+
+#QLabel{
+	border-radius:50px;
+}
+QPushButton{
+	background:#1e1d1d;
+	border-radius:10px;
+	font-size: 24px ;
+	font-family: Microsoft YaHei ;
+	color: rgb(200,200,200); 
+	background:rgba(20,20,20,90%)
+
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="music_button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#music_button{
+	image: url(:/png/music_icon.png);
+	border-radius:30px;
+}
+#music_button:hover{
+
+	image: url(:/png/choose_music1.png);
+	border-radius:30px;
+}
+#front_music:pressed{
+	image: url(:/png/front_pressed.png);
+	border-radius:30px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="map_button">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>300</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#map_button{
+	border-radius:30px;
+	image: url(:/png/11map.png);	
+}	
+
+#map_button:hover{
+	
+	image: url(:/png/choose_map.png);
+	border-radius:30px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tik_button">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>300</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+#tik_button{
+	image: url(:/png/11douy.png);
+	border-radius:30px;
+}
+
+
+#tik_button:hover{
+	
+	
+	image: url(:/png/choose_douyin.png);
+	border-radius:30px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Weather_but">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>70</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+#Weather_but{
+	image: url(:/png/11weather.png);
+	border-radius:30px;
+}
+
+
+#Weather_but:hover{
+	
+	image: url(:/png/choose_weather.png);
+	border-radius:30px;
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>407</x>
+      <y>0</y>
+      <width>43</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>0</y>
+      <width>43</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>×</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

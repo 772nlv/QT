@@ -1,0 +1,15 @@
+INPUT(
+./debug\funcchoosewindow.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\mymusicwindow.o
+./debug\regiwindow.o
+./debug\sqliteoperator.o
+./debug\weatherwindow.o
+./debug\qrc_rc.o
+./debug\moc_funcchoosewindow.o
+./debug\moc_mainwindow.o
+./debug\moc_mymusicwindow.o
+./debug\moc_regiwindow.o
+./debug\moc_weatherwindow.o
+);
